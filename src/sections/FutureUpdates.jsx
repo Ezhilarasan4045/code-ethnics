@@ -28,7 +28,12 @@ const futureUpdates = [
   { icon: '🔀', title: 'Shuffled Questions', desc: 'Randomize question orders to prevent sharing.' },
   { icon: '⏱️', title: 'Time Tracking Per Question', desc: 'Track exact time taken to answer each question.' },
   { icon: '📶', title: 'Network Stability Logs', desc: 'Include connectivity interruptions in reports to avoid unfair penalties.' },
-  { icon: '🔥', title: 'Daily Challenge / Streak System', desc: 'Encourage consistent practice with streak badges and XP.' }
+  { icon: '🔥', title: 'Daily Challenge / Streak System', desc: 'Encourage consistent practice with streak badges and XP.' },
+  {
+  icon: '❓',
+  title: 'MCQ Challenges',
+  desc: 'Sharpen your skills with daily multiple-choice questions and track your progress.'
+}
 ];
 
 const FutureUpdates = () => {
